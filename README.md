@@ -13,7 +13,7 @@ The `langchain-couchbase` package provides integration between LangChain and Cou
 
 ## Documentation
 
-The API reference documentation is available at: [https://[your-github-username].github.io/langchain-couchbase-api-reference/](https://[your-github-username].github.io/langchain-couchbase-api-reference/)
+The API reference documentation is available at: [Visit Here](https://couchbase-examples.github.io/langchain-couchbase-api-reference/)
 
 ## Local Development
 
@@ -24,7 +24,12 @@ To build and preview the documentation locally:
    pip install mkdocs-material
    ```
 
-2. Serve the documentation locally:
+2. Build the documentation:
+   ```bash
+   mkdocs build
+   ```
+
+3. Serve the documentation locally:
    ```bash
    mkdocs serve
    ```
