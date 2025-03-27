@@ -34,3 +34,4 @@ env/
 *.swp
 *.swo
 .DS_Store
+.qodo

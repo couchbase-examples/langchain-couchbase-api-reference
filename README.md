@@ -13,7 +13,7 @@ The `langchain-couchbase` package provides integration between LangChain and Cou
 
 ## Documentation
 
-The API reference documentation is available at: [Visit Docs Here](https://couchbase-examples.github.io/langchain-couchbase-api-reference/)
+The API reference documentation is available at: [Visit Docs Here!](https://couchbase-examples.github.io/langchain-couchbase-api-reference/)
 
 ## Local Development
 
