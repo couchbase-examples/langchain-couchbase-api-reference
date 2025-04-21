@@ -6,7 +6,7 @@ This repository contains the API reference documentation for the [langchain-couc
 
 The `langchain-couchbase` package provides integration between LangChain and Couchbase, offering the following components:
 
-- **CouchbaseVectorStore**: Use Couchbase for vector search and retrieval
+- **CouchbaseSearchVectorStore**: Use Couchbase for vector search and retrieval
 - **CouchbaseCache**: Use Couchbase as a cache for LLM prompts and responses
 - **CouchbaseSemanticCache**: Semantic caching for LLM prompts using Couchbase
 - **CouchbaseChatMessageHistory**: Store chat message history in Couchbase

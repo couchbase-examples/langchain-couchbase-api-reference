@@ -10,21 +10,21 @@ pip install -U langchain-couchbase
 
 ## Table of Contents
 
-- [CouchbaseVectorStore](#couchbasevectorstore)
+- [CouchbaseSearchVectorStore](#couchbasesearchvectorstore)
 - [CouchbaseCache](#couchbasecache)
 - [CouchbaseSemanticCache](#couchbasesemanticcache)
 - [CouchbaseChatMessageHistory](#couchbasechatmessagehistory)
 
 ---
 
-## CouchbaseVectorStore
+## CouchbaseSearchVectorStore
 
-`CouchbaseVectorStore` enables the usage of Couchbase for Vector Search.
+`CouchbaseSearchVectorStore` enables the usage of Couchbase for Vector Search.
 
 ### Import
 
 ```python
-from langchain_couchbase import CouchbaseVectorStore
+from langchain_couchbase import CouchbaseSearchVectorStore
 ```
 
 ### Constructor Parameters
@@ -103,7 +103,7 @@ from langchain_openai import OpenAIEmbeddings
 from couchbase.auth import PasswordAuthenticator
 from couchbase.cluster import Cluster
 from couchbase.options import ClusterOptions
-from langchain_couchbase import CouchbaseVectorStore
+from langchain_couchbase import CouchbaseSearchVectorStore
 
 # Constants for the connection
 COUCHBASE_CONNECTION_STRING = getpass.getpass("Enter the connection string for the Couchbase cluster: ")
@@ -126,7 +126,7 @@ cluster.wait_until_ready(timedelta(seconds=5))
 embeddings = OpenAIEmbeddings()
 
 # Create vector store
-vector_store = CouchbaseVectorStore(
+vector_store = CouchbaseSearchVectorStore(
     cluster=cluster,
     bucket_name=BUCKET_NAME,
     scope_name=SCOPE_NAME,
