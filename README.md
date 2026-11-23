@@ -15,6 +15,10 @@ The `langchain-couchbase` package provides integration between LangChain and Cou
 
 The API reference documentation is available at: [Visit Docs Here!](https://couchbase-examples.github.io/langchain-couchbase-api-reference/)
 
+## Source Layout
+
+The API reference content lives in a single file, `docs/index.md`, which MkDocs publishes as the site's home page (see `nav` in `mkdocs.yml`). Edit that file to change the published docs.
+
 ## Local Development
 
 To build and preview the documentation locally:
@@ -34,7 +38,7 @@ To build and preview the documentation locally:
    mkdocs serve
    ```
 
-3. Open your browser to http://localhost:8000
+4. Open your browser to http://localhost:8000
 
 ## Deployment
 
